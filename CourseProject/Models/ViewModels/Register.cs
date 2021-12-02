@@ -11,6 +11,9 @@ namespace CourseProject.Models.ViewModels
         [Required]
         public string Name { get; set; }
         [Required]
+        [Range(0, 110, ErrorMessage = "The age must be between 0 and 110")]
+        public int Age { get; set; }
+        [Required]
         [EmailAddress]
         public string Email { get; set; }
         [Required]
