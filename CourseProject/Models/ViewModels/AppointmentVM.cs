@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CourseProject.Models.ViewModels
 {
-    public class Appointment
+    public class AppointmentVM
     {
         public int? Id { get; set; }
         public string Title { get; set; }
